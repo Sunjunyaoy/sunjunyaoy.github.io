@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+	<title>Matrix Decomposition</title>
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:title" content="Matrix Decomposition" />
+<meta name="twitter:description" content="">
+
+<meta name="description" content="">
+
+
+
+<link rel="icon" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/touch-icon.png">
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<link rel="stylesheet" href="/assets/core.css">
+<link rel="canonical" href="/matrix_decomposition">
+<link rel="alternate" type="application/atom+xml" title="Sun Junyao" href="/feed.xml" />
+
+
+
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<style>
+			#taglist {
+				color: gray;
+				margin: 0;
+				margin-top: 16px;
+				padding: 0;
+				list-style-type: none;
+				text-align: center;
+				vertical-align: middle;
+			}
+			#taglist li {
+				display: inline;
+			}
+			#taglist li + li:before {
+				content: ", ";
+			}
+		</style>
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-T5S7PZV');</script>
+		<!-- End Google Tag Manager -->
+	</head>
+
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5S7PZV"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+		
+<aside class="logo">
+
+	
+
+	<a href="/">
+		<img src="/images/avatar.jpeg" class="gravatar">
+	</a>
+	<span class="logo-prompt">Back to Home</span>
+
+</aside>
+
+
+		<main>
+			<noscript>
+	<style>
+		article .footnotes {
+			display: block;
+		}
+	</style>
+</noscript>
+
+<article>
+	<div class="center">
+		<h1>Matrix Decomposition</h1>
+		<time>March 7, 2023</time>
+		<!-- <ul id="taglist">
+			Tag:
+			
+		</ul> -->
+	</div>
+
+	<div class="divider"></div>
+
+	<ul id="markdown-toc">
+  <li><a href="#eigen-decomposition" id="markdown-toc-eigen-decomposition">Eigen Decomposition</a>    <ul>
+      <li><a href="#application" id="markdown-toc-application">Application</a></li>
+    </ul>
+  </li>
+  <li><a href="#singular-value-decomposition" id="markdown-toc-singular-value-decomposition">Singular Value Decomposition</a>    <ul>
+      <li><a href="#application-1" id="markdown-toc-application-1">Application</a></li>
+    </ul>
+  </li>
+  <li><a href="#reference" id="markdown-toc-reference">Reference</a></li>
+</ul>
+
+<h2 id="eigen-decomposition">Eigen Decomposition</h2>
+
+<p>\(\mathbf{A} \in \mathbb{R}^{n \times n}\), \(\mathbf{A}\) is diagonalizable, then</p>
+
+<p>\(\mathbf{A}= \mathbf{Q}\mathbf{\Lambda}\mathbf{Q}^{-1}\), \(\mathbf{Q} = \begin{bmatrix}
+| &amp; | &amp; ...  &amp; |\\
+\mathbf{v}_{1} &amp; \mathbf{v}_{2}  &amp; ... &amp; \mathbf{v}_{n}  \\ 
+| &amp; | &amp; ... &amp; |
+\end{bmatrix}\), \(\mathbf{\Lambda} = \begin{bmatrix}
+\lambda_{1} &amp; 0 &amp; 0  &amp; 0\\
+0 &amp; \lambda_{2}  &amp; ... &amp; 0\\ 
+0 &amp; 0 &amp; ... &amp;  \lambda_{n}
+\end{bmatrix}\)</p>
+
+<p>\(\{\lambda_{i}\}^{n}_{i=0}\) are eigenvalues with corresponding eigenvectors \(\{\mathbf{v}_{i}\}^{n}_{i}\). This means \(\mathbf{A}\mathbf{v}_{i} = \lambda_{i}\mathbf{v}_{i}\) (eigenvalues equation)</p>
+
+<p>If \(\mathbf{A}\) is symmetric (\(\mathbf{A}=\mathbf{A}^{T}\)), then we can always write \(\mathbf{A}= \mathbf{Q}\mathbf{\Lambda}\mathbf{Q}^{-1}\),</p>
+
+<h3 id="application">Application</h3>
+<p>Eigen Decomposition is very useful to simplify and reduce matrix product computation.</p>
+
+<p><strong>Problem 1.</strong>  Let \(\mathbf{A} \in \mathbb{R}^{n \times n}\) be a diagonalizable matrix with eigenvalues \(\{\lambda_{i}\}^{n}_{i=0}\) <br />
+	* Compute \(\mathbf{A}^{k}\) for a fixed \(k \in \mathbb{Z}_{+}\)</p>
+
+<h2 id="singular-value-decomposition">Singular Value Decomposition</h2>
+
+<h3 id="application-1">Application</h3>
+
+<h2 id="reference">Reference</h2>
+<p>[1] <a href="https://textbooks.math.gatech.edu/ila/diagonalization.html">Diagonalization</a></p>
+
+
+	<div class="divider"></div>
+
+	<!-- LikeBtn.com BEGIN -->
+	<div class="footer">
+		<span class="block">&hearts; <i> I appreciate your feedback! &hearts; </i></span>
+	</div>
+	<div style="text-align: center;">
+		<span class="likebtn-wrapper" data-identifier="Matrix Decomposition"></span>
+		<script>(function (d, e, s) { if (d.getElementById("likebtn_wjs")) return; a = d.createElement(e); m = d.getElementsByTagName(e)[0]; a.async = 1; a.id = "likebtn_wjs"; a.src = s; m.parentNode.insertBefore(a, m) })(document, "script", "//w.likebtn.com/js/w/widget.js");</script>
+	</div>
+	<!-- LikeBtn.com END -->
+
+</article>
+
+
+
+
+
+<div class="page-navigation">
+	
+	<a class="home" href="/" title="Back to Homepage">Home</a>
+	
+	<span> &middot; </span>
+	<a class="prev" href="/extended_kalman_filter" title="PREV: Extended Kalman Filter (EKF)">&gt;&gt;</a>
+	
+</div>
+		</main>
+                                                      
+
+		<div class="footer">
+<!--  <span class="block">Made with &hearts; using <a href="http://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/heiswayi/the-plain" title="Lei's Blog">The Plain</a> &middot; &lt;/&gt; on <a href="https://github.com/" title="Hosted on GitHub">GitHub</a></span> -->
+  <span class="block">
+    &copy; 
+    2023 
+    
+  </span>
+</div>
+
+
+		
+
+			
+
+		
+
+		<!-- hit counter -->
+		<br>
+		<center>
+		<!-- <img src="http://hitwebcounter.com/counter/counter.php?page=6818827&style=0024&nbdigits=5&type=ip&initCount=0" align="top" title="" Alt=""   border="1" height=18px/>     -->
+		<script type="text/javascript" src="//counter.websiteout.net/js/5/7/10500/1"></script>
+		</center>  
+
+	</body>
+
+</html>
