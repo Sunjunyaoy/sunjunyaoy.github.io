@@ -45,19 +45,12 @@ I am a student from Ritsumeikan University, Computer Science Information Enginee
 
 ## Services
 
-<h4 style="margin:0 10px 0;">Invited as Conference Reviewers</h4>
+<h4 style="margin:0 10px 0;">Participation as Conference Volunteer</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><a href="https://www.icra2023.org/"><autocolor>IEEE International Conference on Robotics and Automation (ICRA)</autocolor></a></li>
-  <li><a href="https://www.aim2022.org/"><autocolor>IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</autocolor></a></li>
-</ul>
+  <li><a href="https://www.icra2023.org/"><autocolor>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022)</autocolor></a></li>
+  </ul>
 
-<h4 style="margin:0 10px 0;">Invited as Journal Reviewers</h4>
-
-<ul style="margin:0 0 20px;">
-  <li><a href="https://www.sciencedirect.com/journal/information-fusion"><autocolor> Information Fusion </autocolor></a></li>
-  <li><a href="https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing"><autocolor> ISPRS Journal of Photogrammetry and Remote Sensing </autocolor></a></li>
-</ul>
 
 ## Contact
 **Email:** thuan.aislab@gmail.com
