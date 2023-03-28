@@ -29,7 +29,7 @@ I am a student from Ritsumeikan University, Computer Science Information Enginee
       <div class="title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0924271622001241">視覚に基づく道路境界の検出と道路環境における
 ロボットの自律的なナビゲーションアルゴリズム</a></div>
       <div class="author"> <strong>Junyao, Sun</strong>, Tuan Dinh Tran, and Joo-Ho Lee</div>
-      <div class="periodical"><em>Master thesis project, 2022.</em>
+      <div class="periodical"><em>Master thesis, 2022.</em>
       </div>
     <div class="links">
       <a href="https://thuanbb.github.io/archive/bach2022featlocJSPRS.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
@@ -53,7 +53,7 @@ I am a student from Ritsumeikan University, Computer Science Information Enginee
 
 
 ## Contact
-**Email:** thuan.aislab@gmail.com
+**Email:** sun.junyao@gmail.com
 <br>
 **Address:** [Ritsumeikan University, BKC Campus, Graduate School of Information Science and Engineering, Japan](http://www.aislab.org/index.php/en/)
 <br>
