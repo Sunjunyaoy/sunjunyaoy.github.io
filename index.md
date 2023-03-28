@@ -11,7 +11,7 @@ I am a student from Ritsumeikan University, Computer Science Information Enginee
 <strong style="color:#e74d3c; font-weight:600">I am looking for a postdoc or research scientist position in the US and EU. I would appreciate a ping if you see a job I might fit.</strong>
 -->
 
-## News - [Blog](https://thuanbb.github.io/blog)
+## News - [Blog](#)
 - **[Mar. 2023]** First release of the website.
 
 <h2 id="publications" style="margin: 2px 0px -15px;">My Research <temp style="font-size:15px;"> </temp></h2>
@@ -26,15 +26,15 @@ I am a student from Ritsumeikan University, Computer Science Information Enginee
             <abbr class="badge">Thesis</abbr>
   </div>
   <div id="peng2021copo" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0924271622001241">視覚に基づく道路境界の検出と道路環境における
+      <div class="title"><a href="#">視覚に基づく道路境界の検出と道路環境における
 ロボットの自律的なナビゲーションアルゴリズム</a></div>
       <div class="author"> <strong>Junyao, Sun</strong>, Tuan Dinh Tran, and Joo-Ho Lee</div>
       <div class="periodical"><em>Master thesis, 2022.</em>
       </div>
     <div class="links">
-      <a href="https://thuanbb.github.io/archive/bach2022featlocJSPRS.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/ais-lab/FeatLoc" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <a href="https://thuanbb.github.io/BibTeX/bach2022featloc.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
   </div>
 </div>
