@@ -1,26 +1,62 @@
-title: Thuan Bach Bui
+title: Bach-Thuan Bui
 position: Ph.D. Candidate
 affiliation: Ritsumeikan University
 affiliation_link: https://en.ritsumei.ac.jp/
 email: thuan.aislab@gmail.com
-keywords: Thuan Bui Bach, Thuan B. Bui , Thuan Bach Bui
+keywords: Bach-Thuan Bui, Thuan B. Bui , Thuan Bach Bui
 google_scholar: https://scholar.google.com/citations?user=_uvHRywAAAAJ&hl=en&oi=ao
 cv_link: 
 github_link: https://github.com/thuanaislab/
 linkedin: 
 twitter: https://twitter.com/thuanth09269912/
-avatar: https://www.linkpicture.com/q/z3800539384748_4fd5b07e3e7201d8d1fbb8b987ef5c73.jpg
+avatar: https://thuanbb.github.io/assets/img/thuan.jpg
 google_analytics: UA-111540567-4
 favicon: ./assets/img/favicon.svg
 favicon_dark: 
-description: Thuan B. Bui is a Ph.D. candidate at Graduate School of Information Science and Engineering, Ritsumeikan University, Japan. His research lies in Computer Vision, 3D Geometry, and Deep Learning.
+description: Bach-Thuan Bui is a Ph.D. candidate at Graduate School of Information Science and Engineering, Ritsumeikan University, Japan. His research lies in Computer Vision, 3D Geometry, and Deep Learning.
 data_protection: 
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE
-  - run_jekyll.sh
-  - minimal-light.gemspec
-  - CNAME
+# Site Settings
+baseurl: https://thuanbb.github.io/            # Base URL must end WITHOUT a slash, default: ""
+author_gravatar: avatar.jpeg
+permalink:          /:title # Post permalink
+timezone:           Asia/Japan # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to false to disable
+
+# Site Build
+highlighter:        rouge
+#markdown:           redcarpet
+#redcarpet:
+#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+#gems: [jekyll-coffeescript, jekyll-watch, jekyll-assets, jekyll-sitemap]
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
+  -
+    scope:
+      path:         ""
+    values:
+      excerpt_separator:       ""

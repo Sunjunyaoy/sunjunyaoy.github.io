@@ -11,10 +11,10 @@ I am currently a first-year Ph.D. candidate in Information Science and Engineeri
 <strong style="color:#e74d3c; font-weight:600">I am looking for a postdoc or research scientist position in the US and EU. I would appreciate a ping if you see a job I might fit.</strong>
 -->
 
-## News
-
+## News - [Blog](https://thuanbb.github.io/blog)
+- **[Mar. 2023]** We recived [Excellent Research Award](https://www.ritsumei.ac.jp/gsise/news/detail/?id=37) for our work of [FeatLoc](https://www.sciencedirect.com/science/article/abs/pii/S0924271622001241), GSISE, RU.
 - **[Oct. 2022]**  I will serve as a volunteer of [IROS 2022](https://iros2022.org/).
-- **[April. 2022]** Our paper about [absolute camera pose regression](https://www.sciencedirect.com/science/article/abs/pii/S0924271622001241) got accepted to [ISPRS 2022](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing).
+- **[Apr. 2022]** Our paper about [absolute camera pose regression](https://www.sciencedirect.com/science/article/abs/pii/S0924271622001241) got accepted to [ISPRS 2022](https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing).
 
 <h2 id="publications" style="margin: 2px 0px -15px;">My Research <temp style="font-size:15px;"> </temp></h2>
 
@@ -27,12 +27,12 @@ I am currently a first-year Ph.D. candidate in Information Science and Engineeri
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src= "https://user-images.githubusercontent.com/115802533/195974848-dcd289dd-3157-42ff-91cd-f5ddbc299e83.png"
  class="teaser img-fluid z-depth-1">
-            <abbr class="badge">RA-L</abbr>
+            <abbr class="badge">Arxiv</abbr>
   </div>
   <div id="peng2021copo" class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://arxiv.org/abs/2212.01830"> Fast and Lightweight Scene Regressor for Camera Relocalization</a></div>
       <div class="author"> <strong>Thuan B. Bui</strong>, Tuan Dinh Tran, and Joo-Ho Lee</div>
-      <div class="periodical"><em> IEEE Robotics and Automation Letters (Under Review) </em>
+      <div class="periodical"><em> </em>
       </div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2212.01830.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a> 
@@ -95,10 +95,10 @@ class="teaser img-fluid z-depth-1">
 </div>
 
 ## Awards
-
-- Japanese government scholarship ([Monbukagakusho: MEXT](https://www.mext.go.jp/en/index.htm)) for doctoral course, 2022-2025
-- Japanese government scholarship ([Monbukagakusho: MEXT](https://www.mext.go.jp/en/index.htm)) for master course, 2020-2022
-- Third prize of science research competition for student, [Hanoi University of Science and Technology, Hanoi, Vietnam](https://en.hust.edu.vn), 2019
+- [Excellent Research Award](https://www.ritsumei.ac.jp/gsise/news/detail/?id=37), GSISE, Ritsumeikan University, 2023.3
+- Japanese Government Scholarship ([Monbukagakusho: MEXT](https://www.mext.go.jp/en/index.htm)), Doctoral Study, 2022-2025
+- Japanese Government Scholarship ([Monbukagakusho: MEXT](https://www.mext.go.jp/en/index.htm)), Master Study, 2020-2022
+- Third Prize of Science Research Competition for Student, [HUST](https://en.hust.edu.vn), Hanoi, Vietnam, 2019.5
 
 ## Services
 
@@ -113,8 +113,9 @@ class="teaser img-fluid z-depth-1">
 
 <ul style="margin:0 0 20px;">
   <li><a href="https://www.sciencedirect.com/journal/information-fusion"><autocolor> Information Fusion </autocolor></a></li>
-
+  <li><a href="https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing"><autocolor> ISPRS Journal of Photogrammetry and Remote Sensing </autocolor></a></li>
 </ul>
+
 ## Contact
 **Email:** thuan.aislab@gmail.com
 <br>
